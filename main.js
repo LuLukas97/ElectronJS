@@ -17,7 +17,7 @@ function createMainWindow() {
   mainWindow = new BrowserWindow({
     title: "Image Resizer",
     width: isDev ? 1500 : 500,
-    height: 600,
+    height: 800,
     webPreferences: {
       contextIsolation: true,
       nodeIntegration: true,
